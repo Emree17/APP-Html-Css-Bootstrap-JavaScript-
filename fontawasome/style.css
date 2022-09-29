@@ -1,0 +1,30 @@
+body{
+    background: lightcoral;
+}
+.todos li{
+    background: crimson;
+}
+ ::placeholder{
+    color: antiquewhite !important;
+}
+.contanier{
+    max-width: 600px;
+    margin: auto;
+    
+}
+input[type=text],
+input[type=text]:focus{
+    color: bisque;
+    border: none;
+    background: black;
+}
+
+
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important ;
+}
